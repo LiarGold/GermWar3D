@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{66B0A80A-6752-9535-E80C-DB8724BBA5D0}</ProjectGuid>
+    <ProjectGuid>{9F8D5BF3-ABC8-5697-2465-2AA0C516BF87}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -60,18 +60,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\BacteriaWar\GameScene\CCell.cs" />
-    <Compile Include="Assets\Script\BacteriaWar\GameScene\CGameController.cs" />
-    <Compile Include="Assets\Script\BacteriaWar\GameScene\CGameDataStorage.cs" />
-    <Compile Include="Assets\Script\BacteriaWar\GameScene\CGameScene.cs" />
-    <Compile Include="Assets\Script\BacteriaWar\GameScene\Input\C1PInputManager.cs" />
-    <Compile Include="Assets\Script\BacteriaWar\GameScene\Input\C2PInputManager.cs" />
-    <Compile Include="Assets\Script\BacteriaWar\GameScene\Input\CInputManagerBase.cs" />
-    <Compile Include="Assets\Script\BacteriaWar\GameScene\UI\CGermUI.cs" />
-    <Compile Include="Assets\Script\BacteriaWar\GameScene\UI\CScoreUI.cs" />
-    <Compile Include="Assets\Script\BacteriaWar\GameScene\UI\CTurnUI.cs" />
-    <Compile Include="Assets\Script\BacteriaWar\ResultScene\CResultScene.cs" />
-    <Compile Include="Assets\Script\BacteriaWar\StartScene\CStartScene.cs" />
     <Compile Include="Assets\Script\Global\Define\KDefine.Global.cs" />
     <Compile Include="Assets\Script\Global\Define\KDefine.Utility.cs" />
     <Compile Include="Assets\Script\Global\Function\Function.Global.cs" />
@@ -82,20 +70,26 @@
     <Compile Include="Assets\Script\Global\Utility\Dispatcher\CTriggerDispatcher.cs" />
     <Compile Include="Assets\Script\Global\Utility\Manager\CResourceManager.cs" />
     <Compile Include="Assets\Script\Global\Utility\Sprite\CSprite.cs" />
+    <Compile Include="Assets\Script\YouShallNotPass\GameScene\CAim.cs" />
+    <Compile Include="Assets\Script\YouShallNotPass\GameScene\CBullet.cs" />
+    <Compile Include="Assets\Script\YouShallNotPass\GameScene\CGameScene.cs" />
+    <Compile Include="Assets\Script\YouShallNotPass\GameScene\CTurret.cs" />
+    <Compile Include="Assets\Script\YouShallNotPass\ResultScene\CResultScene.cs" />
+    <Compile Include="Assets\Script\YouShallNotPass\StartScene\CStartScene.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Gold/Documents/GermWar3D/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Gold/Documents/YouShallNotPass/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/Gold/Documents/GermWar3D/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/Gold/Documents/YouShallNotPass/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Gold/Documents/GermWar3D/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Gold/Documents/YouShallNotPass/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Gold/Documents/GermWar3D/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Gold/Documents/YouShallNotPass/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/Gold/Documents/GermWar3D/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/Gold/Documents/YouShallNotPass/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -299,19 +293,19 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements">
-      <HintPath>C:/Users/Gold/Documents/GermWar3D/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
+      <HintPath>C:/Users/Gold/Documents/YouShallNotPass/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements.Editor">
-      <HintPath>C:/Users/Gold/Documents/GermWar3D/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
+      <HintPath>C:/Users/Gold/Documents/YouShallNotPass/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/Gold/Documents/GermWar3D/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/Gold/Documents/YouShallNotPass/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/Gold/Documents/GermWar3D/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Gold/Documents/YouShallNotPass/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/Gold/Documents/GermWar3D/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/Gold/Documents/YouShallNotPass/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
