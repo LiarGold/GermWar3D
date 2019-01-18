@@ -79,12 +79,13 @@
     <Compile Include="Assets\Script\Global\Utility\Manager\CResourceManager.cs" />
     <Compile Include="Assets\Script\Global\Utility\Sprite\CSprite.cs" />
     <Compile Include="Assets\Script\YouShallNotPass\GameScene\CGameScene.cs" />
+    <Compile Include="Assets\Script\YouShallNotPass\GameScene\GameController\CGameController.cs" />
     <Compile Include="Assets\Script\YouShallNotPass\GameScene\GameController\CJoyStick.cs" />
+    <Compile Include="Assets\Script\YouShallNotPass\GameScene\Object\CMeteor.cs" />
     <Compile Include="Assets\Script\YouShallNotPass\GameScene\Player\CAim.cs" />
     <Compile Include="Assets\Script\YouShallNotPass\GameScene\Player\CBullet.cs" />
     <Compile Include="Assets\Script\YouShallNotPass\GameScene\Player\CGun.cs" />
     <Compile Include="Assets\Script\YouShallNotPass\GameScene\Player\CTurret.cs" />
-    <Compile Include="Assets\Script\YouShallNotPass\GameScene\Target\CMeteor.cs" />
     <Compile Include="Assets\Script\YouShallNotPass\ResultScene\CResultScene.cs" />
     <Compile Include="Assets\Script\YouShallNotPass\StartScene\CStartScene.cs" />
     <Compile Include="Assets\Starfield Skybox\Demo\Script\LookCamera.cs" />
