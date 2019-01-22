@@ -7,7 +7,7 @@ public class CBullet : MonoBehaviour
 	//! 초기화
 	public void Start()
 	{
-		Destroy(this.gameObject, 2.0f);
+		Destroy(this.gameObject, 5.0f);
 	}
 
 	//! 총알을 발사한다
@@ -16,5 +16,11 @@ public class CBullet : MonoBehaviour
 		var rigidBody = GetComponent<Rigidbody>();
 		rigidBody.AddForce(transform.forward * power,
 			ForceMode.VelocityChange);
+	}
+
+	//! 충돌했을 경우
+	public void OnCollisionEnter(Collision collision)
+	{
+		Destroy(gameObject);
 	}
 }

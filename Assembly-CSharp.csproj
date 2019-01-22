@@ -60,18 +60,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Animated Planet Bagyo\Demo\Script\LookCamera.cs" />
     <Compile Include="Assets\Earth\Scripts\EarthRootScript.cs" />
     <Compile Include="Assets\Earth\Scripts\EarthScript.cs" />
     <Compile Include="Assets\Earth\Scripts\MoveScript.cs" />
     <Compile Include="Assets\Earth\Scripts\SphereScript.cs" />
-    <Compile Include="Assets\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
-    <Compile Include="Assets\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
-    <Compile Include="Assets\EffectExamples\Shared\Scripts\GunAim.cs" />
-    <Compile Include="Assets\EffectExamples\Shared\Scripts\GunShoot.cs" />
-    <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
-    <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
-    <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
     <Compile Include="Assets\Script\Global\Define\KDefine.Global.cs" />
     <Compile Include="Assets\Script\Global\Define\KDefine.Utility.cs" />
     <Compile Include="Assets\Script\Global\Function\Function.Global.cs" />
@@ -84,6 +76,7 @@
     <Compile Include="Assets\Script\Global\Utility\Sprite\CSprite.cs" />
     <Compile Include="Assets\Script\YouShallNotPass\GameScene\CGameScene.cs" />
     <Compile Include="Assets\Script\YouShallNotPass\GameScene\GameController\CGameController.cs" />
+    <Compile Include="Assets\Script\YouShallNotPass\GameScene\GameController\CGameDataStorage.cs" />
     <Compile Include="Assets\Script\YouShallNotPass\GameScene\GameController\CJoyStick.cs" />
     <Compile Include="Assets\Script\YouShallNotPass\GameScene\Object\CMeteor.cs" />
     <Compile Include="Assets\Script\YouShallNotPass\GameScene\Player\CAim.cs" />
@@ -131,28 +124,24 @@
     <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtProceduralSpin.cs" />
     <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtSeed.cs" />
     <Compile Include="Assets\Space Graphics Toolkit\Basic Pack\Scripts\SgtSpawnList.cs" />
-    <Compile Include="Assets\Stagit\SkyboxEarthPlanets\script\skyboxspace_demo_v1.cs" />
-    <Compile Include="Assets\Stagit\SkyboxEarthPlanets\script\skyboxspace_mouselook_v1.cs" />
     <None Include="Assets\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
     <None Include="Assets\Space Graphics Toolkit\Basic Pack\Shaders\SGT Depth.shader" />
     <None Include="Assets\Earth\Materials\EarthShader.shader" />
     <None Include="Assets\Space Graphics Toolkit\Basic Pack\Shaders\SGT Additive.shader" />
-    <None Include="Assets\Space Graphics Toolkit\Basic Pack\Fonts\OFL.txt" />
-    <None Include="Assets\Stagit\SkyboxEarthPlanets\readme.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Administrator/Documents/YouShallNotPass/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Gold/Documents/YouShallNotPass/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/Administrator/Documents/YouShallNotPass/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/Gold/Documents/YouShallNotPass/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Administrator/Documents/YouShallNotPass/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Gold/Documents/YouShallNotPass/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Administrator/Documents/YouShallNotPass/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Gold/Documents/YouShallNotPass/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/Administrator/Documents/YouShallNotPass/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/Gold/Documents/YouShallNotPass/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -356,19 +345,19 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements">
-      <HintPath>C:/Users/Administrator/Documents/YouShallNotPass/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
+      <HintPath>C:/Users/Gold/Documents/YouShallNotPass/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements.Editor">
-      <HintPath>C:/Users/Administrator/Documents/YouShallNotPass/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
+      <HintPath>C:/Users/Gold/Documents/YouShallNotPass/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/Administrator/Documents/YouShallNotPass/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/Gold/Documents/YouShallNotPass/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/Administrator/Documents/YouShallNotPass/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Gold/Documents/YouShallNotPass/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/Administrator/Documents/YouShallNotPass/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/Gold/Documents/YouShallNotPass/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -715,12 +704,6 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{79F7CE67-B6E3-02BE-268F-F3D8155DB0D2}</Project>
-      <Name>Assembly-CSharp-firstpass</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
